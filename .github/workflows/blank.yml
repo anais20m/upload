@@ -18,7 +18,8 @@ jobs:
             sudo curl --output gm8.zip https://ghost-mirror-main.hitesh920.workers.dev/0://%C5%9Eubat%20-%202021%20%5BP.GM8.2102.B-d%5D%20Dual.zip
             sudo unzip gm8.zip
             ls
-            cd Şubat - 2021 [P.GM8.2102.B-d] Dual
+            mv 'Şubat - 2021 [P.GM8.2102.B-d] Dual' gm8
+            cd gm8
             sudo ls
             sudo curl https://raw.githubusercontent.com/Mikubill/transfer/master/install.sh --output install.sh
             sudo chmod +x install.sh
