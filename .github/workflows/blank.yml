@@ -23,4 +23,4 @@ jobs:
             sudo curl https://raw.githubusercontent.com/Mikubill/transfer/master/install.sh --output install.sh
             sudo chmod +x install.sh
             sudo ./install.sh
-            sudo ./transfer gof gm8_ota.zip
+            sudo ./transfer gof vendor_a.img
